@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\mem">
+      <UniqueIdentifier>{5a4fe51e-5662-431e-827c-4337615faa38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pch">
+      <UniqueIdentifier>{15d93fed-cb45-4b86-932b-d7e1df221c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\proc">
+      <UniqueIdentifier>{fa2028c5-7fb4-4501-817d-c1b17b3e4325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rev">
+      <UniqueIdentifier>{6986f11c-4103-48c9-85b8-ff4746dd73e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\geom">
+      <UniqueIdentifier>{cf3b7877-d321-4fd5-8b15-f1750dcad6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gl draw">
+      <UniqueIdentifier>{9e8ca900-1a8b-4c68-b506-51c8b6e1c805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gl text">
+      <UniqueIdentifier>{4d887424-b0e8-4071-9a63-9e28d61802ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hook">
+      <UniqueIdentifier>{4099046a-84e1-4595-a438-bf091a5c6283}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Header Files\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>Header Files\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="rev.h">
+      <Filter>Header Files\rev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Xenz Projects\include1OpenGl\geom.h">
+      <Filter>Header Files\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Xenz Projects\include1OpenGl\glDraw.h">
+      <Filter>Header Files\gl draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Xenz Projects\include1OpenGl\gltext.h">
+      <Filter>Header Files\gl text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl assault cube ESP\FirstInternalHack\hook.h">
+      <Filter>Header Files\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainBoi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Header Files\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>Header Files\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>Header Files\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Xenz Projects\include1OpenGl\geom.cpp">
+      <Filter>Header Files\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Xenz Projects\include1OpenGl\glDraw.cpp">
+      <Filter>Header Files\gl draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Xenz Projects\include1OpenGl\gltext.cpp">
+      <Filter>Header Files\gl text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl assault cube ESP\FirstInternalHack\hook.cpp">
+      <Filter>Header Files\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
